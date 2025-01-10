@@ -1,0 +1,2 @@
+- Learnt how dockers work, been trying to export a kivy app (mental health journal) for testing, but found issues with installing python dependancies on WSL or Virtual Box
+so I've used Docker to create an set enviroment for export.
