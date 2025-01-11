@@ -7,6 +7,9 @@ https://github.com/ZakMorrison2024/Every_Phone_Call_FF6_Random_Battle
 
 - I found this on a python discord - https://fastapi.tiangolo.com/#interactive-api-docs-upgrade
 
+- Got GPT to write a GUI (KIVY) app that automates buildozer and dockerfiles, it's not finished but yeah, something to work on later
+
+
 - This would be good to revise and make good practice for future projects:
 
 def calculate_tip(
