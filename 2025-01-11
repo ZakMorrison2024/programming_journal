@@ -1,2 +1,35 @@
 - Man Why is it so hard, surely this was made to streamline, like I pulled and it didn't work, I've written my own custom and after 4 days I'm still trying
 all I want is too see how ineffecient my app is on a weaker android phone ¬¬
+
+- This would be good to revise and make good practice for future projects:
+
+def calculate_tip(
+        tip_percentage: float,
+        total_amount: float,
+        num_pax: int
+    ) -> float:
+    """ Calculate the total fee per pax including tip.
+
+    Parameters
+    ----------
+    `tip_percentage` : float
+        The percentage of tip to be given. Must be between 0.0 and 100.0.
+    `total_amount` : float
+        The total amount of the bill.
+    `num_pax` : int
+        The number of people to split the bill.
+
+    Returns
+    -------
+    `total_fee_per_pax` : float
+        The total fee per pax including tip.
+
+    Raises
+    ------
+    ValueError
+        - If `tip_percentage` is not between 0.0 and 100.0.
+
+    Usage
+    -----
+    >>> calculate_tip(10, 100, 2)
+    """
